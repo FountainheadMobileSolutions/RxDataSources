@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
   name: "RxDataSources",
   platforms: [
-    .iOS(.v12), .tvOS(.v10)
+    .iOS(.v12), .tvOS(.v12)
   ],
   products: [
     .library(name: "RxDataSources", targets: ["RxDataSources"]),
@@ -16,7 +16,14 @@ let package = Package(
     .package(url: "https://github.com/FountainheadMobileSolutions/RxSwift.git", branch: "topic/xcode16")
   ],
   targets: [
-    .target(name: "RxDataSources", dependencies: ["Differentiator", "RxSwift", "RxCocoa"]),
+    .target(
+      name: "RxDataSources", 
+      dependencies: [
+        .target(name: "Differentiator"), 
+        .product(name: "RxSwift", package: "RxSwift"), 
+        .product(name: "RxCocoa", package: "RxSwift"),
+      ]
+    ),
     .target(name: "Differentiator"),
     .testTarget(name: "RxDataSourcesTests", dependencies: ["RxDataSources"])
   ],
