@@ -50,3 +50,4 @@ Carthage/Build
 .build/
 Packages/
 .swiftpm/
+/RxDataSources.xcodeproj/project.xcworkspace/xcshareddata/swiftpm
