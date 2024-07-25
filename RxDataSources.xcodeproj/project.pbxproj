@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -439,7 +439,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1600;
 				ORGANIZATIONNAME = kzaher;
 				TargetAttributes = {
 					C81905AD1DEA019100AE679C = {
