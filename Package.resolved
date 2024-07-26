@@ -1,13 +1,13 @@
 {
-  "originHash" : "01ce7091c33c16ba078e6dc5dfc74da17f57e43dff9082eae2a3190c06b1fe8e",
+  "originHash" : "bd9554e1e385b07ecf462185b15c951a1e24384b325040ecd812f7c559a930ca",
   "pins" : [
     {
       "identity" : "rxswift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/FountainheadMobileSolutions/RxSwift.git",
       "state" : {
-        "branch" : "topic/xcode16",
-        "revision" : "8fcd081df18e81b7cb8a42f75283580a724c0b0f"
+        "revision" : "e11aa287d8eb40c2ec687546da54866852a16640",
+        "version" : "6.8.0"
       }
     }
   ],
